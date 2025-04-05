@@ -15,14 +15,14 @@ export default function Header() {
       <div className="flex items-center space-x-3">
         
 
-        <Link href="/login">
+        <Link href="/upload">
           <button className="px-4 py-2 text-sm font-medium text-black dark:text-dark border border-gray-300 dark:border-gray-600 rounded-xl hover:bg-gray-100 dark:hover:bg-#2E236C transition">
-            Log In
+            Verify
           </button>
         </Link>
-        <Link href="/signup">
+        <Link href="/explore">
           <button className="px-4 py-2 text-sm font-medium text-white bg-black dark:bg-white dark:text-black rounded-xl hover:bg-gray-900 dark:hover:bg-gray-200 transition">
-            Sign Up
+            Explore
           </button>
         </Link>
       </div>

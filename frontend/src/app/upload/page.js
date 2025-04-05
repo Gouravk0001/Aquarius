@@ -146,9 +146,9 @@ const NFTVerificationForm = () => {
       {result && (
         <div className="mt-6 p-4 rounded-xl bg-white dark:text-gray-100 border border-gray-300 dark:border-gray-700">
           <strong className="block mb-1 text-black dark:text-black">Result:</strong>
-          <pre className="text-black  text-sm whitespace-pre-wrap">
-            {JSON.stringify(result.error ? result.error : result, null, 2)}
-          </pre>
+          <pre className="text-black text-sm whitespace-pre-wrap">
+            {result?.detail || result?.message || JSON.stringify(result, null, 2)}
+            </pre>
         </div>
       )}
     </div>

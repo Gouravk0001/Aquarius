@@ -31,3 +31,35 @@ main{
 .form{
   background-color: #7e77d1;
 }
+.main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.main2{
+  background-color: #7e77d1;
+  height: 600px;
+  width: 800px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+
+.inp{
+  width: 500px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+.btn{
+  background-color: #9a13fb;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+  width: 500px;
+
+}
+.btn:hover{
+  background-color: #9200fa;
+  color: white;
+}
