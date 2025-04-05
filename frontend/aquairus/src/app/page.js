@@ -13,7 +13,7 @@ export default function Home() {
     <div className="text-gray-800">
       <section className="bg-[linear-gradient(to_right,#B5A8D5,#7A73D1,#4D55CC,#211C84)] py-20 text-center px-4 text-white">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
-          Decentralized AI-Powered NFT Fraud Detector
+          Decentralized NFT Fraud Detector
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
           Verify your NFTs in seconds. Upload your asset and get an instant fraud risk score powered by AI & blockchain.
@@ -44,7 +44,7 @@ export default function Home() {
           <div className="bg-white shadow-xl rounded-xl p-6 text-center hover:shadow-2xl transition">
             <h3 className="text-xl font-semibold mb-2 text-[#211C84]">3. Get Score</h3>
             <p className="text-gray-600">
-              Instantly receive an AI-generated authenticity and worthiness score.
+              Instantly receive an authenticity and worthiness score.
             </p>
           </div>
         </div>
