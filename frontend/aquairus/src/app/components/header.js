@@ -1,24 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Moon, Sun } from "lucide-react"; 
-
 export default function Header() {
-  const [darkMode, setDarkMode] = useState(false);
 
-  useEffect(() => {
-    const storedMode = localStorage.getItem("theme");
-    if (storedMode === "dark") {
-      document.documentElement.classList.add("dark");
-      setDarkMode(true);
-    }
-  }, []);
-
-  const toggleTheme = () => {
-    const isDark = document.documentElement.classList.toggle("dark");
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-    setDarkMode(isDark);
-  };
 
   return (
     <header className="sticky top-0 z-50 w-full px-6 py-4 bg-white shadow-md flex justify-between items-center transition-colors">

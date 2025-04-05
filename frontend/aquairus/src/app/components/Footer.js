@@ -4,7 +4,7 @@ import { Github, Twitter, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full px-6 py-8  border-t border-gray-200 dark:border-gray-700  bg-[#4D55CC] transition-colors">
+    <footer className="w-full px-6 py-8  border-t border-gray-200 dark:border-gray-700  bg-[#4D55CC] transition-colors bottom-0">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-center md:text-left">
           <h3 className="text-lg font-semibold text-black dark:text-white">NFT Fraud Detector</h3>

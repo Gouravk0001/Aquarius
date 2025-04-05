@@ -25,3 +25,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+  background-color: white;
+}
+.form{
+  background-color: #7e77d1;
+}
