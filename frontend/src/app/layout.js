@@ -26,7 +26,6 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <main className=" main-section">{children}</main>
-        <Footer />
       </body>
     </html>
   );

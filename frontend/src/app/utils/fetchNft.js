@@ -1,5 +1,5 @@
 require("dotenv").config();
-const apiKey=process.env.NEXT_PUBLIC_ALCHEMY_API_KEY;
+const apiKey=process.env.NEXT_PUBLIC_APIKEY;
 const endpoint = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}`;
 
 export const fetchNFTs = async (owner, contractAddress, setNFTs, retryAttempt) => {
