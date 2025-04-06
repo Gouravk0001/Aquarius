@@ -38,7 +38,7 @@ const NFTVerificationForm = () => {
 
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:8000/verify-nft-opensea/", {
+      const response = await fetch("http://localhost:8000/verify-nft/", {
         method: "POST",
         body: formData,
       });

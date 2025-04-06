@@ -39,7 +39,7 @@ abstract contract NFTDetector {
         votes[metadataHash].hasVoted[msg.sender] = true;
     }
 
-    // Abstract methods
+
     function addToWhitelist(address creator) public virtual;
     function addToBlacklist(address creator) public virtual;
 }
